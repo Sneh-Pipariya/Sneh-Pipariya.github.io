@@ -1,6 +1,4 @@
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-/* General style 
-======================================================== */
 html {
   scroll-behavior: smooth;
 }
@@ -170,7 +168,6 @@ select {
   display: none !important;
 }
 
-/* Preloader */
 .preloader {
   background-color: #222222;
   position: fixed;
@@ -222,8 +219,6 @@ select {
   }
 }
 
-/* Aside bar Style
-================================================================ */
 .aside {
   width: 270px;
   background-color: #fdf9ff;
@@ -360,8 +355,6 @@ select {
   color: #7d7d7d;
 }
 
-/* Home Section
-====================================================*/
 .home {
   min-height: 100vh;
   display: -ms-flexbox;
@@ -410,9 +403,6 @@ select {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-
-/* ABout Section
-========================================================== */
 
 .about .about-content {
   -ms-flex: 0 0 100%;
@@ -506,7 +496,6 @@ select {
   border-radius: 4px;
 }
 .about .about-content .skills .skill-item .skill-percent {
-  /* display: none; */
   line-height: 40px;
   color: #302e4d;
   position: absolute;
@@ -592,9 +581,6 @@ select {
   margin: 0;
 }
 
-/* Service Section 
-============================================================== */
-
 .service .container {
   padding-bottom: 40px;
 }
@@ -658,8 +644,6 @@ select {
   overflow: hidden;
 }
 
-/* Portfolio Section
-================================================================  */
 .portfolio .container {
   padding-bottom: 40px;
 }
@@ -792,8 +776,6 @@ select {
   line-height: 40px;
 }
 
-/* Lightbox  */
-
 .lightbox {
   position: fixed;
   left: 0;
@@ -912,8 +894,6 @@ select {
   line-height: 40px;
 }
 
-/* Blog Section started
-========================================================================== */
 .blog .container {
   padding-bottom: 40px;
 }
@@ -988,8 +968,6 @@ select {
   font-weight: 600;
 }
 
-/* Contact Section 
-====================================================== */
 .contact .contact-info-item {
   flex: 0 0 33.33%;
   -ms-flex: 0 0 33.33%;
@@ -1123,9 +1101,7 @@ body.dark .shadow-dark {
   box-shadow: none;
 }
 
-/* ====================================================== */
 /* ---------------  Responsive Css Stared */
-/* ====================================================== */
 
 @media (max-width: 1199px) {
   .section .container {
